@@ -1,0 +1,6 @@
+{ 
+  "user": {
+    "login": "login_or_email_here",
+    "password": "user_password_here"
+  }
+}

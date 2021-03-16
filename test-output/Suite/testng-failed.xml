@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="rest.nagp.assignment.testCases.TestUsers">
+        <methods>
+          <include name="addAUser"/>
+          <include name="init"/>
+          <include name="startTest"/>
+          <include name="updateUserEmail"/>
+          <include name="getAUser"/>
+          <include name="reportFlush"/>
+          <include name="setupRequest"/>
+        </methods>
+      </class> <!-- rest.nagp.assignment.testCases.TestUsers -->
+      <class name="rest.nagp.assignment.testCases.TestActivities">
+        <methods>
+          <include name="deleteAnActivity"/>
+          <include name="setupRequest"/>
+          <include name="init"/>
+          <include name="startTest"/>
+          <include name="followUserActivity"/>
+          <include name="getUserActivity"/>
+          <include name="unfollowUserActivity"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- rest.nagp.assignment.testCases.TestActivities -->
+      <class name="rest.nagp.assignment.testCases.TestQuotes">
+        <methods>
+          <include name="init"/>
+          <include name="startTest"/>
+          <include name="hideAQuote"/>
+          <include name="markAQuoteFav"/>
+          <include name="addAQuote"/>
+          <include name="setupRequest"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- rest.nagp.assignment.testCases.TestQuotes -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

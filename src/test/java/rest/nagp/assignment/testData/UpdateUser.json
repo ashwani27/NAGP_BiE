@@ -1,0 +1,12 @@
+{ 
+  "user": {
+    "login": "user_login_here",
+    "email": "user_email_here",
+    "password": "user_password_here",
+    "twitter_username": "twitter_username_here",
+    "facebook_username": "facebook_username_here",
+    "pic": "twitter",
+    "profanity_filter": false,
+    "public_themes": false
+  }
+}
